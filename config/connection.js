@@ -17,7 +17,7 @@ var source = {
     }
 }
 
-var selectedSource = source.localhost;
+var selectedSource = source.jawsDB;
 
 
 var sequelize = new Sequelize(selectedSource.database, selectedSource.user, selectedSource.password, {
