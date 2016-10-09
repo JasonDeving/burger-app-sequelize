@@ -29,7 +29,8 @@ h1 {
 .off-set-70 {
     margin-left: 70%;
 }
-
-footer {
-    color: white;
+.burger {
+    width: 8%;
+    margin: auto 0;
+    text-align: center;
 }
