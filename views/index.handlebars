@@ -12,7 +12,7 @@
                 {{this.burger_name}}  
                 <form method="POST" action="/eat/{{this.id}}?_method=PUT">
                     <input type="hidden" name="devoured" value="true">
-                    <button type="submit" name="burgerId" class="btn btn-danger center-block off-set-70">Devour it!</button>
+                    <button type="submit" name="burgerId" class="btn btn-danger center-block offset-70">Devour it!</button>
                 </form>
                 <hr>
             </li>
@@ -29,7 +29,7 @@
                 {{this.burger_name}}
                 <form method="POST" action="/eat/{{this.id}}?_method=PUT">
                     <input type="hidden" name="devoured" value="false">
-                    <button type="submit" name="burgerId" class="btn btn-primary center-block off-set-70">Eat Again </button>
+                    <button type="submit" name="burgerId" class="btn btn-primary center-block offset-70">Eat Again </button>
                 </form>
             </li>
             <hr>
